@@ -1,0 +1,48 @@
+let duke=[
+    {model:200,cc:200,topspeed:140,colour:"white"},
+    {model:250,cc:248,topspeed:150,colour:"white"},
+    {model:390,cc:390,topspeed:170,colour:"white"}
+];
+for(let i=0;i<duke.length;i++){
+    console.log(
+        `name of the bike:${duke[i].model}; what is the cc :${duke[i].cc}; what is the topspeed:${duke[i].topspeed};what is yor fav colour${duke[i].colour}`
+    );
+};
+for(const b of duke){
+    console.log(
+        `name of the bike:${b.model}; what is the cc :${b.cc}; what is the topspeed:${b.topspeed};what is yor fav colour :${b.colour}`
+    );
+}
+for(const b in duke){
+       console.log(
+      `name of the bike:${duke[b].model}; what is the cc :${duke[b].cc}; what is the topspeed:${duke[b].topspeed};what is yor fav colour :${duke[b].colour}`
+      );
+
+
+       };
+
+
+
+
+
+
+
+
+
+
+my own resume on JESON :
+const MyResume = {
+    "name": "Dinakaran",
+    "dateofbirth":06-03-2000,
+    "age":23,
+    "education":[{"coures":"DME","dateofcompetion":2017,"gread": "firstclass"},
+{"coures":"BEm","dateofcompetion":2021,"gread": "firstclass"}],
+"family":{"fathername":"velaikovunder","mothername":"megeshwari","sister":"deepa"},
+"career":["texmoindustres","SKMfoodindustries"]
+    
+};
+console.log(MyResume); 
+
+
+
+
